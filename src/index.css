@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search-input {
+  padding: 19px 0 10px 0;
+}
+
+h2 {
+  padding: 10px 0;
+  color: #3c5d5d !important;
+}
+
+.header-app {
+  background-color: #e0ebeb;
+}
+
+.footer {
+  background-color: #e0ebeb;
+  text-align: center;
+}
+
+.footer p {
+  padding-top: 5px;
+}
+
+.container-footer {
+  margin-top: 10px;
+}
+
+h3 {
+  text-align: center;
+  padding: 23px 0;
+}
+
+.show-item {
+  width: 250px;
+  float: left;
+  margin: 0 15px 10px 15px;
+  background-color:  #e6d4d4;
+}
+
+.show-title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.show-image {
+  width: 100%;
+}
+
+.show-summary {
+  text-align: left;
+}
+
+.show-season-casts {
+  padding-top: 73px;
+}
+
+.show-season h3 {
+   text-align: left;
+    padding-left: 23px;
+}
+
+.search-shows {
+  width: 100%;
+  margin-top: 23px;
+}
+
+.dropdown {
+  float: right;
+  width: 311px;
+}
+
+.dropdown-menu.show {
+  width: 310px;
+}
+
+.show-crew {
+  padding-top: 69px;
+}
+
+input {
+  padding: 5px 0 6px 16px;
+}
+
+
+
+
