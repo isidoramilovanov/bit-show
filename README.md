@@ -13,7 +13,7 @@ Package Manager: Npm
 
 
 
-## **STRUCTURE OF BIT BLOG**
+## **STRUCTURE OF BIT SHOW**
 
 ```
 blog_app/
