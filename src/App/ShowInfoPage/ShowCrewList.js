@@ -15,7 +15,7 @@ const ShowCrewList = (props) => {
     
     return  (
         <React.Fragment>
-            <h3>Crews ({props.showDataCrews.length})</h3>
+            <h3 className='item-headline'>Crews ({props.showDataCrews.length})</h3>
             <ul>{allShowCrews}</ul>
         </React.Fragment>
     )

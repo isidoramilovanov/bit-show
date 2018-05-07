@@ -14,7 +14,7 @@ const ShowSeasonsList = (props) => {
 
     return (
         <React.Fragment>
-            <h3>Seasons ({props.showDataSeasons.length})</h3>
+            <h3 className='item-headline'>Seasons ({props.showDataSeasons.length})</h3>
             <ul>{allShowSeasons}</ul>
         </React.Fragment>
     )

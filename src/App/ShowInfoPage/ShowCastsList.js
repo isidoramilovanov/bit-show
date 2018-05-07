@@ -14,7 +14,7 @@ const ShowCastsList = (props) => {
 
     return (
         <React.Fragment>
-            <h3>Casts ({props.showDataCasts.length})</h3>
+            <h3 className='item-headline'>Casts ({props.showDataCasts.length})</h3>
             <ul>{allShowCasts}</ul>
         </React.Fragment>
     )

@@ -70,24 +70,9 @@ blog_app/
 ![alt text](https://raw.githubusercontent.com/mariaradovanovic/bit-show/master/images/home_page.png)
 
 
-
-![alt text](https://raw.githubusercontent.com/mariaradovanovic/blog_app/master/images/oneauthorposts.png)
-
+![alt text](https://raw.githubusercontent.com/mariaradovanovic/bit-show/master/images/show_details.png)
 
 
-![alt text](https://raw.githubusercontent.com/mariaradovanovic/blog_app/master/images/allauthors.png)
-
-
-
-![alt text](https://raw.githubusercontent.com/mariaradovanovic/blog_app/master/images/oneauthor.png)
-
-
-
-![alt text](https://raw.githubusercontent.com/mariaradovanovic/blog_app/master/images/about.png)
-
-
-
-![alt text](https://raw.githubusercontent.com/mariaradovanovic/blog_app/master/images/post.png)
 
 
 
