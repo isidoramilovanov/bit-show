@@ -3,7 +3,7 @@
 Web application for searching popular tv shows.
 
 
-## **TECHNOLOGIES**
+### **TECHNOLOGIES**
 
 Languages: HTML5, CSS3, JavaScript (ES6)
 
@@ -13,7 +13,7 @@ Package Manager: Npm
 
 
 
-## **STRUCTURE OF BIT SHOW**
+### **STRUCTURE OF BIT SHOW**
 
 ```
 blog_app/
@@ -63,7 +63,7 @@ blog_app/
     README.md
 ```
 
-## **SCREENSHOTS**
+### **SCREENSHOTS**
 
 
 
