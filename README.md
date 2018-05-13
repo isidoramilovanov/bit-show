@@ -1,15 +1,12 @@
 ## **BIT SHOW**
 
-Web application for searching popular tv shows.
+Single page application written in ReactJS, where users can see list of popular TV Shows and its details like number of seasons, cast etc. App uses [TVMAZE](http://www.tvmaze.com/api) API.
+
 
 
 ### **TECHNOLOGIES**
 
-Languages: HTML5, CSS3, JavaScript (ES6)
-
-Framework: React, Bootstrap for React
-
-Package Manager: Npm
+HTML5, CSS3, JavaScript (ES6), ReactJS, Bootstrap, npm
 
 
 
