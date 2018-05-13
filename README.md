@@ -1,4 +1,4 @@
-## **BIT SHOW**
+## ** REACT SHOW **
 
 Single page application written in ReactJS, where users can see list of popular TV Shows and its details like number of seasons, cast etc. App uses [TVMAZE](http://www.tvmaze.com/api) API.
 
