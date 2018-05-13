@@ -8,7 +8,7 @@ import Aka from '../Entities/Aka';
 
 class ShowsRequest {
     showsFunction = () => {
-     return fetch('http://api.tvmaze.com/shows') 
+     return fetch('https://api.tvmaze.com/shows') 
          .then((response) => response.json())
          .then((result) => result.slice(0, 50))
          .then((showList) => {
@@ -19,7 +19,7 @@ class ShowsRequest {
     }
     
     oneShowFunction = (showId) => {
-        return fetch(`http://api.tvmaze.com/shows/${showId}`)
+        return fetch(`https://api.tvmaze.com/shows/${showId}`)
             .then((response) => response.json())
             .then((show) => {
                 return new Show (show);
@@ -27,7 +27,7 @@ class ShowsRequest {
     };
 
     oneShowSeasonFunction = (showId) => {
-        return fetch(`http://api.tvmaze.com/shows/${showId}/seasons`)
+        return fetch(`https://api.tvmaze.com/shows/${showId}/seasons`)
             .then((response) => response.json())
             .then((resultArray) => {
                 // console.log(resultArray)
@@ -38,7 +38,7 @@ class ShowsRequest {
     };
 
     showCastsFunction = (showId) => {
-        return fetch(`http://api.tvmaze.com/shows/${showId}/cast`)
+        return fetch(`https://api.tvmaze.com/shows/${showId}/cast`)
             .then((response) => response.json())
             .then((castsArray) => {
                 // console.log(castsArray)
@@ -49,7 +49,7 @@ class ShowsRequest {
     };
 
     showSearchFunction = () => {
-        return fetch(`http://api.tvmaze.com/search/shows?q=game`)
+        return fetch(`https://api.tvmaze.com/search/shows?q=game`)
         .then((response) => response.json())
         .then((result) => result)
         .then((searchResult) => {
@@ -62,7 +62,7 @@ class ShowsRequest {
     }
 
     showCrewFunction = (crewId) => {
-        return fetch(`http://api.tvmaze.com/shows/${crewId}/crew`)
+        return fetch(`https://api.tvmaze.com/shows/${crewId}/crew`)
         .then((response) => response.json())
         .then((result) => result.slice(0, 5))
         .then((crewResult) => {
