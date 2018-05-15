@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Row, Col, ListGroup} from 'reactstrap';
+import Footer from '../Partials/Footer';
 import ShowsList from './ShowsList';
 import {dataService}  from '../../Service/dataService';
 
@@ -23,6 +24,7 @@ class Home extends Component {
 
     render() {
         return (
+            <div>
             <Container>
                 <Row>
                     <Col md='1'></Col>
@@ -35,6 +37,8 @@ class Home extends Component {
                     <Col md='1'></Col>
                 </Row>
             </Container>
+            <Footer />
+            </div>
         )
     }
 }

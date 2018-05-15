@@ -1,8 +1,10 @@
 class Search {
     constructor(search) {
-        this.name = search.name,
-        this.searchId = search.id
+        this.searchName = search.show.name,
+        this.searchId = search.show.id
     }
+
+
 }
 
 export default Search;

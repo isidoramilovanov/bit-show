@@ -48,8 +48,8 @@ class ShowsRequest {
         })
     };
 
-    showSearchFunction = () => {
-        return fetch(`http://api.tvmaze.com/search/shows?q=game`)
+    showSearchFunction = (showId) => {
+        return fetch(`http://api.tvmaze.com/search/shows?q=${showId}`)
         .then((response) => response.json())
         .then((result) => result)
         .then((searchResult) => {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Container, Row, Col, ListGroup} from 'reactstrap';
 import ShowImage from './ShowImage';
 import ShowDetails from './ShowDetails';
+import Footer from '../Partials/Footer';
 import ShowSeasonsList from './ShowSeasonsList';
 import ShowCastsList from './ShowCastsList';
 import ShowCrewList from './ShowCrewList';
@@ -56,8 +57,8 @@ class ShowInfo extends Component {
 
     
     render() {
-        console.log(this.state.allAkas)
         return (
+            <div>
             <Container>
                 <Row>
                     <Col md='1'></Col>
@@ -84,7 +85,8 @@ class ShowInfo extends Component {
                     <Col md='1'></Col>
                 </Row>
             </Container>
-
+            <Footer />
+            </div>
         )
     }
 }
